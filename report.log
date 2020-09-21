@@ -1,0 +1,78 @@
+
+=INFO REPORT==== 21-Sep-2020::18:13:15 ===
+Yaws: Listening to 0.0.0.0:8003 for <1> virtual servers:
+ - http://simple_bridge:8003 under ./site/static
+
+=INFO REPORT==== 21-Sep-2020::18:13:35 ===
+/home/gumm/.yaws/yaws/simple_bridge/yaws_dynopts.erl:0: Recompiled.
+
+=INFO REPORT==== 21-Sep-2020::18:13:35 ===
+/home/gumm/www/nitrogen-git/custom_elements/lib/yaws/src/yaws_dynopts.erl:0: Recompiled.
+
+=INFO REPORT==== 21-Sep-2020::18:13:37 ===
+/home/gumm/www/nitrogen-git/custom_elements/lib/simple_bridge/src/webmachine_bridge_modules/webmachine_simple_bridge_static.erl:0: Recompiled.
+
+=INFO REPORT==== 21-Sep-2020::18:13:48 ===
+/home/gumm/.yaws/yaws/simple_bridge/yaws_dynopts.erl:0: Recompiled.
+
+=INFO REPORT==== 21-Sep-2020::18:13:48 ===
+/home/gumm/www/nitrogen-git/custom_elements/lib/yaws/src/yaws_dynopts.erl:0: Recompiled.
+
+=INFO REPORT==== 21-Sep-2020::18:13:49 ===
+/home/gumm/.yaws/yaws/simple_bridge/yaws_dynopts.erl:0: Recompiled.
+
+=INFO REPORT==== 21-Sep-2020::18:13:49 ===
+/home/gumm/www/nitrogen-git/custom_elements/lib/yaws/src/yaws_dynopts.erl:0: Recompiled.
+
+=ERROR REPORT==== 21-Sep-2020::18:16:25 ===
+/home/gumm/www/nitrogen-git/custom_elements/site/src/sweettag.erl:15: Error: record b undefined
+
+=ERROR REPORT==== 21-Sep-2020::18:16:40 ===
+/home/gumm/www/nitrogen-git/custom_elements/site/src/element_b.erl:7: Error: record b undefined
+/home/gumm/www/nitrogen-git/custom_elements/site/src/element_b.erl:9: Error: record b undefined
+/home/gumm/www/nitrogen-git/custom_elements/site/src/element_b.erl:10: Error: record b undefined
+/home/gumm/www/nitrogen-git/custom_elements/site/src/element_b.erl:11: Error: record b undefined
+/home/gumm/www/nitrogen-git/custom_elements/site/src/element_b.erl:14: Error: record b undefined
+/home/gumm/www/nitrogen-git/custom_elements/site/src/element_b.erl:15: Error: record b undefined
+/home/gumm/www/nitrogen-git/custom_elements/site/src/element_b.erl:16: Error: record b undefined
+/home/gumm/www/nitrogen-git/custom_elements/site/src/element_b.erl:17: Error: record b undefined
+
+=ERROR REPORT==== 21-Sep-2020::18:16:48 ===
+/home/gumm/www/nitrogen-git/custom_elements/site/src/element_b.erl:7: Error: record b undefined
+/home/gumm/www/nitrogen-git/custom_elements/site/src/element_b.erl:9: Error: record b undefined
+/home/gumm/www/nitrogen-git/custom_elements/site/src/element_b.erl:10: Error: record b undefined
+/home/gumm/www/nitrogen-git/custom_elements/site/src/element_b.erl:11: Error: record b undefined
+/home/gumm/www/nitrogen-git/custom_elements/site/src/element_b.erl:14: Error: record b undefined
+/home/gumm/www/nitrogen-git/custom_elements/site/src/element_b.erl:15: Error: record b undefined
+/home/gumm/www/nitrogen-git/custom_elements/site/src/element_b.erl:16: Error: record b undefined
+/home/gumm/www/nitrogen-git/custom_elements/site/src/element_b.erl:17: Error: record b undefined
+
+=INFO REPORT==== 21-Sep-2020::18:18:33 ===
+/home/gumm/www/nitrogen-git/custom_elements/site/src/element_b.erl:0: Recompiled.
+
+=INFO REPORT==== 21-Sep-2020::18:18:34 ===
+/home/gumm/www/nitrogen-git/custom_elements/site/src/sweettag.erl:0: Recompiled.
+
+=INFO REPORT==== 21-Sep-2020::18:20:32 ===
+/home/gumm/www/nitrogen-git/custom_elements/site/src/element_b.erl:0: Recompiled.
+
+=INFO REPORT==== 21-Sep-2020::18:20:55 ===
+/home/gumm/www/nitrogen-git/custom_elements/site/src/element_b.erl:0: Recompiled.
+
+=INFO REPORT==== 21-Sep-2020::18:23:00 ===
+/home/gumm/www/nitrogen-git/custom_elements/site/src/element_b.erl:0: Recompiled.
+
+=INFO REPORT==== 21-Sep-2020::18:23:00 ===
+element_b: Reloaded! (Beam changed.)
+
+=INFO REPORT==== 21-Sep-2020::18:24:57 ===
+/home/gumm/www/nitrogen-git/custom_elements/site/src/element_b.erl:0: Recompiled.
+
+=INFO REPORT==== 21-Sep-2020::18:25:19 ===
+Recaching Template: site/templates/bare.html
+
+=INFO REPORT==== 21-Sep-2020::18:27:40 ===
+/home/gumm/www/nitrogen-git/custom_elements/site/src/element_b.erl:0: Recompiled.
+
+=INFO REPORT==== 21-Sep-2020::18:30:34 ===
+/home/gumm/www/nitrogen-git/custom_elements/site/src/sweettag.erl:0: Recompiled.
