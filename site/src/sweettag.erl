@@ -8,9 +8,12 @@ main() ->
 
 body() ->
     #panel{body=[
-        #h2{text="Are you ready for the awesome?!"},
-        #h1{text="I said: ARE YOU READY FOR THE AWESOME?!"},
-        #br{},
-        #br{},
-        #b{text="BOOM BABY, THIS IS THE AWESOME!"}
+        #h1{text="Pick a time during the business day"},
+        #time_selector{id=time, start=480, finish=1020, increment=30},
+        #button{text="I've decided", postback=select_time}
     ]}.
+
+event(select_time) ->
+    Time = wf:to_integer(wf:q(time)),
+    FormattedTime = element_time_selector:format_time(Time),
+    wf:wire(#alert{text=["You picked: ", FormattedTime]}).
