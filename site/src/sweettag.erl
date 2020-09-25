@@ -9,11 +9,10 @@ main() ->
 body() ->
     #panel{body=[
         #h1{text="Pick a time during the business day"},
-        #time_selector{id=time, start=480, finish=1020, increment=30},
-        #button{text="I've decided", postback=select_time}
+        #time_selector{tag=time, start=480, finish=1020, increment=30}
     ]}.
 
-event(select_time) ->
-    Time = wf:to_integer(wf:q(time)),
-    FormattedTime = element_time_selector:format_time(Time),
-    wf:wire(#alert{text=["You picked: ", FormattedTime]}).
+time_selector_event(Tag, FormattedTime) ->
+    Msg = io_lib:format("You picked: ~s with tag ~p",
+                        [FormattedTime, Tag]),
+    wf:wire(#alert{text=Msg}).
